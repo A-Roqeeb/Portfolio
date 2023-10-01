@@ -1,0 +1,43 @@
+Git and GitHub:
+
+
+Mastering Git & GitHub 1 - 
+
+What is the primary purpose of using Git and GitHub in software development, and how do they complement each other?
+
+
+Explain the concept of forking a repository on GitHub. How does it enable collaborative coding on open-source projects?
+
+
+How can Git help developers manage changes in their code, and what are the key benefits of using version control systems like Git?
+
+
+In the video, the presenter mentioned the importance of peer review on GitHub. Describe the peer review process on GitHub and its significance in collaborative coding.
+
+
+Can you name at least three popular Git GUI tools or applications that developers can use to manage their Git repositories, and briefly explain their advantages over using the command line for Git operations?
+
+
+Mastering Git & GitHub 2 -
+
+What are the key differences between Git and GitHub as explained in the video?
+
+
+How do you initiate a Git repository and what is the significance of the "git add" and "git commit" commands in version control?
+
+
+Explain the purpose of using branches in Git, and how can you create a new branch using Git commands?
+
+
+What is the importance of creating descriptive commit messages when recording changes in a Git repository?
+
+
+Can you describe the process of switching between branches in Git using the "git checkout" command, and why might you need to do this in a collaborative project?
+
+
+Mastering Git & GitHub 3 -
+
+Describe the process of creating a pull request and why it is a valuable step in the Git workflow, according to the video.
+
+
+Create a public GitHub repository that you can use to store the responses to your bootcamp tasks and ensure the files are properly organised.
