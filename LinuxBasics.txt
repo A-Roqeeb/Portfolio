@@ -19,10 +19,11 @@ The “cp” command makes a copy of a directory or file and puts that copy in a
 The “mv” command moves s directory or file and puts it in a specified directory. This command is used when you do not want a copy of the file/directory to remain in the present working directory.
 The “rm” command is used to delete a file from the present working directory.
 
+
 Mastering Linux command basics - 
 
 What is the difference between a relative path and an absolute path in Linux, and why is understanding this distinction important when navigating through the file system?
-A relative path gives the path in relation to the present working directory. An absolute path give the path from the root directory.
+A relative path gives the path in relation to the present working directory. An absolute path give the path from the root directory 
 
 Explain the purpose of the "mkdir," "rm," and "touch" commands in Linux. Provide an example of when each of these commands might be used in a practical scenario.
 The “mkdir” command is used to create a new directory in the present working directory (pwd) and can be sued when a new directory needs to be created.
@@ -36,14 +37,18 @@ Suppose you want to find a file on your Linux system, but you only remember its 
 The “find” command can be used to display the relative path of the file and the “pwd” command can be used along with the “find” command to get the absolute path.
 
 The instructor mentioned the significance of file permissions in Linux. Could you explain why changing file permissions is essential and provide an example scenario where you might need to modify file permissions using the "chmod" command?
+File persmissions determine who can access files and directories on the system and are a security measure to help maintain and secure the system, eg. if a person needed permission to make a file executable, they would need to use the “chmod +x” command.
 
 
 Exploring Linux file system hierarchy - 
-
 What is the purpose of the shebang (`#!`) at the beginning of a script, and how does it relate to script execution?
 It is used to tell a computer how to execute a program with an executor. It states which interpreter will be used when the script is being executed. The shebang line allows you to use the power of different interpreters or customise the script execution behavior.
 
 What is the significance of the `/bin` directory in Linux? How does it relate to system binaries?
 Bin directories in Linux are dedicated areas for storing executable files, commonly known as binaries. These binaries are required for the execution of different commands and programs on a Linux system. The binary folders ensure that these executables are easily accessible to users.
+It stores essential command binaries which can be used by both system administrator and the user such as cat,ls,mv,ps,mount etc. These commands are used to boot up a system (access boot files, mount drives) and can be used while repairing a system when the binaries in /usr aren’t available
 
 Walk through the process of creating an executable script using the terminal. Include steps for creating the script, changing its permissions, and running it.
+  Create a text file having a “.sh” extension. Use this file to type a script.
+  While making sure you’re in the same directory as the script file in the terminal, use the “chmod +x” command to give executable access to the file created.
+  Execute the script in the terminal using “./” followed by the text file name (with the “.sh” included).
