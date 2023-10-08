@@ -1,0 +1,26 @@
+/* makes changes to all sections */ /* */
+body {background-color: black; margin: 50px;}
+
+/* makes changes to section 1 paragraph */
+h1, h2 {color: aliceblue; text-align: center; font-family: 'Times New Roman'; font-size: 75px;}
+
+/* makes changes to section 1 and 2 headers 'This page will be hosting a few Lorem Ipsum sentences' */
+#header_text {text-align: center; font-family: Arial; font-size: 45px;}
+
+/* makes changes to section 2 and 3 (everything after 'hr' line) */
+.body_ipsum {margin-left: 150px; margin-right: 150px;}
+
+/* makes changes to section 2 header */
+h2{margin-top: -10px;}
+
+/* makes changes to section 2 sub-headers */
+h4 {color: aliceblue; text-align:left; font-family: 'Times New Roman'; font-size: 30px;}
+
+/* makes changes to section 2 paragraphs */
+p {color: aliceblue; text-align: left; font-family: Arial; font-size: 20px;}
+
+/* makes changes to section 3 */
+#link_ipsum {text-align: center; font-family: Arial; font-size: 50px;}
+
+
+
