@@ -14,4 +14,4 @@ fi
 
 # change here
 # here you can pass the arguments
-bash prog.sh Shell is fun
+bash passing-arguments.sh Shell is fun
